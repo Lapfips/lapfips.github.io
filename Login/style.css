@@ -44,13 +44,13 @@ header nav a {
   color: white;
 }
 header .title {
-  background: #08042c;
+  background: #f85858;
 }
 header .title:hover {
-  background: #5247b9;
+  background: #500c0c;
 }
 header nav a:hover {
-  background: #5247b9;
+  background: #f85858;
 }
 header nav a:hover > a:not(:hover) {
   background: none;
