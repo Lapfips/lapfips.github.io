@@ -7,6 +7,92 @@
   font-family: "Montserrat", sans-serif;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  width: 90%;
+  z-index: 100;
+  margin-top: -10%;
+  margin-bottom: 75px;
+}
+
+header h1 {
+  font-size: 60px;
+  color: white;
+}
+header .title {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 50px;
+  transition: 0.4s;
+}
+header nav {
+  display: flex;
+  gap: 30px;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 99px;
+  transition: 0.4s;
+  color: white;
+}
+header .title {
+  background: #08042c;
+}
+header .title:hover {
+  background: #5247b9;
+}
+header nav a:hover {
+  background: #5247b9;
+}
+header nav a:hover > a:not(:hover) {
+  background: none;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 100px;
+    padding: 0 3%;
+  }
+
+  header h1 {
+    font-size: 40px;
+  }
+  header nav {
+    gap: 20px;
+  }
+  header nav a {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 80px;
+    padding: 0 2%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -120px;
+    margin-bottom: 10%;
+  }
+
+  header .title {
+    font-size: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    padding: auto;
+  }
+}
+
 body {
   background-color: #ff6e6e;
   background: linear-gradient(135deg, #000000, #f85858);
