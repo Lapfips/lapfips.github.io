@@ -27,7 +27,18 @@
  - [ ] HOME
     - [ ] Colors
     - [ ] Images
+        - [ ] Clouds
+        - [ ] Mountains
+        - [ ] Road
+        - [ ] Beach
+        - [ ] IT subject
+    - [ ] Placements
+        - [ ] Profiles
+        - [ ] IT subject
+        - [ ] Thanks
+        
  - [x] LOGIN
+
  - [ ] PROFILES
     - [ ] Ethan
         - [ ] Colors
@@ -49,6 +60,8 @@
         - [ ] Colors
         - [ ] Animations
         - [ ] Placement
+
  - [ ] ACTIVITIES
+
  - [ ] ABOUT
 
