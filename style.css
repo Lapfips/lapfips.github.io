@@ -303,17 +303,17 @@ header nav a:hover > a:not(:hover) {
   border: black solid 20px;
   border-radius: 40px;
   position: absolute;
-  height: 20%;
+  height: 30%;
   top : 70%;
-  left: -55px;
+  left: -75px;
   transform: translate(0, -60%);
 }
 .it .code2 {
   border: black solid 20px;
   border-radius: 40px;
   position: absolute;
-  height: 20%;
+  height: 35%;
   top : 50%;
-  right: -50px;
+  right: -70px;
   transform: translate(0, -50%);
 }
