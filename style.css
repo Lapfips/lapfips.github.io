@@ -340,8 +340,9 @@ header nav a:hover > a:not(:hover) {
   font-size: 22px;
 }
 .conclusion .ipi img {
-  margin-top: 55px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  width: 30%;
+  margin-bottom: 20px;
 }
 .conclusion .thanks {
   width: 40%;
