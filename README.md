@@ -31,7 +31,7 @@
         - [ ] Mountains
         - [ ] Road
         - [ ] Beach
-        - [ ] IT subject
+        - [x] IT subject
     - [ ] Placements
         - [ ] Profiles
         - [x] IT subject
