@@ -79,7 +79,7 @@ header nav a:hover > a:not(:hover) {
     font-size: 30px;
     padding-left: 150px;
     padding-right: 150px;
-    margin-top: 20%px;
+    margin-top: 20px;
     margin-bottom: 40px;
   }
 }
@@ -192,8 +192,16 @@ header nav a:hover > a:not(:hover) {
 }
 
 @media screen and (max-width: 768px) {
+  .presentation .present {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
   .presentation h1 {
     font-size: 30px;
+  }
+  .presentation p {
+    font-size: 13px;
   }
   .presentation .present .summary .column {
     display: flex;
