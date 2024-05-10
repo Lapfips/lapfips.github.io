@@ -34,8 +34,8 @@
         - [ ] IT subject
     - [ ] Placements
         - [ ] Profiles
-        - [ ] IT subject
-        - [ ] Thanks
+        - [x] IT subject
+        - [x] Thanks
         
  - [x] LOGIN
 
@@ -65,3 +65,8 @@
 
  - [ ] ABOUT
 
+ - [ ] IT SUBJECTS
+	- [ ] Html
+	- [ ] Css
+	- [ ] Js
+	- [ ] Projects
