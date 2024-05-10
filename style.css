@@ -74,13 +74,15 @@ header nav a:hover > a:not(:hover) {
     justify-content: center;
     flex-wrap: wrap;
   }
-
+  header nav a {
+    font-size: 8px;
+  }
   header h1 {
     font-size: 30px;
     padding-left: 150px;
     padding-right: 150px;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 
@@ -115,6 +117,7 @@ header nav a:hover > a:not(:hover) {
     width: 280%;
   }
   .home .title {
+    margin-top: 30px;
     font-size: 120px;
   }
 }
@@ -207,4 +210,8 @@ header nav a:hover > a:not(:hover) {
     display: flex;
     flex-direction: column;
   }
+}
+
+img{
+  width: 100%;
 }
