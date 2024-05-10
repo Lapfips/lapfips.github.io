@@ -16,7 +16,6 @@ header {
   width: 90%;
   z-index: 100;
   margin-top: -100px;
-  margin-bottom: 75px;
 }
 
 header h1 {
@@ -104,6 +103,7 @@ body {
 }
 
 .container {
+  margin: 250px;
   background-color: #fff;
   border: 10px solid #ffffff;
   border-radius: 30px;
