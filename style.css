@@ -100,6 +100,9 @@ header nav a:hover > a:not(:hover) {
   width: 100%;
   pointer-events: none;
 }
+.home .cloud {
+  margin-bottom: 57dvh;
+}
 .home .title {
   position: absolute;
   font-family: "allura";
@@ -213,6 +216,14 @@ header nav a:hover > a:not(:hover) {
     display: flex;
     flex-direction: column;
   }
+}
+
+.profiles .beach {
+  position: absolute;
+  bottom: 0;
+  top: 300dvh;
+  width: 100%;
+  pointer-events: none;
 }
 
 .it {
