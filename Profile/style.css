@@ -137,6 +137,11 @@ header nav a:hover > a:not(:hover) {
   border-radius: 25px;
 }
 
+a{
+  color:rgb(0, 0, 0);
+  text-decoration: none;
+}
+
 @media screen and (max-width: 768px) {
   .profileHeader {
     margin-top: 100px;
