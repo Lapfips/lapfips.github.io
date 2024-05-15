@@ -64,8 +64,8 @@
     - [ ] Copyright
         - [ ] Size
 
- - [ ] LOGIN
-    - [ ] Place the nav bar
+ - [X] LOGIN
+    - [X] Place the nav bar
 
  - [ ] PROFILES
     - [ ] Ethan
