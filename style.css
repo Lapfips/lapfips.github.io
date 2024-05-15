@@ -478,3 +478,8 @@ header nav a:hover > a:not(:hover) {
   transform: translate(-50%, 0);
   font-size: 20px;
 }
+@media screen and (max-width: 768px) {
+  .copyright p {
+    font-size: 13px;
+  }
+}
