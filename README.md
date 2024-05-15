@@ -26,18 +26,47 @@
 
  - [ ] HOME
     - [ ] Colors
+        - [ ] Section transition between Beach and it
     - [ ] Images
-        - [ ] Clouds
+        - [x] Clouds
         - [ ] Mountains
         - [ ] Road
-        - [ ] Beach
+        - [ ] Flags
+        - [x] Beach
         - [x] IT subject
     - [ ] Placements
         - [ ] Profiles
+            - [ ] Place all heads
+            - [ ] Border radius
+            - [ ] All about texts
+                - [ ] Placements
+                - [ ] Color
+                - [ ] Font
+                - [ ] Border and radius
+        - [ ] Beach
+        - [ ] Transition between Beach and it by placing porto wine
+            - [ ] Add CSS
+            - [ ] Add button to the page
+            - [ ] Add some text about our presentation
         - [x] IT subject
-        - [x] Thanks
+        - [ ] Conclusion
+            - [ ] IPI
+            - [ ] Thanks
+                - [ ] Placement
+                - [ ] Size
+                - [ ] Text size
+                - [ ] Font
+    - [ ] IT
+        - [ ] Do the hover glow on icons
+        - [ ] Animations of codings text
+    - [ ] Flags
+        - [ ] Animations of flags
+    - [ ] Copyright
+        - [ ] Size
+    
         
- - [x] LOGIN
+ - [ ] LOGIN
+    - [ ] Place the nav bar
 
  - [ ] PROFILES
     - [ ] Ethan
@@ -66,9 +95,20 @@
  - [ ] ABOUT
 
  - [ ] IT SUBJECTS
-	- [ ] Html 
+	- [ ] Html
+        - [ ] Add content
+        - [ ] Add CSS
 	- [ ] Css
+        - [ ] Add content
+        - [ ] Add CSS
 	- [ ] Js
+        - [ ] Add content
+        - [ ] Add CSS
 	- [ ] Projects
+        - [ ] Add content
+        - [ ] Add CSS
 
  - [ ] Porto wine
+    - [ ] Add the idea
+    - [ ] Add CSS
+

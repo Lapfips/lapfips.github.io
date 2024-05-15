@@ -151,7 +151,7 @@ header nav a:hover > a:not(:hover) {
 .presentation {
   padding-top: 50px;
   padding-bottom: 250px;
-  background: linear-gradient(to bottom, #99153f, #1770b9);
+  background: linear-gradient(to bottom, #99153f, #f2e35d);
   color: white;
   position: relative;
   z-index: 100;
