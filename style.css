@@ -149,9 +149,10 @@ header nav a:hover > a:not(:hover) {
 }
 
 .presentation {
+  height: 130dvh;
   padding-top: 50px;
   padding-bottom: 250px;
-  background: linear-gradient(to bottom, #99153f, #f2e35d);
+  background: linear-gradient(to bottom, #99153f, #f5EE76);
   color: white;
   position: relative;
   z-index: 100;
@@ -218,21 +219,99 @@ header nav a:hover > a:not(:hover) {
   }
 }
 
+.profiles {
+  display: flex;
+  color: black;
+  overflow: hidden;
+  height: auto;
+}
+
 .profiles .beach {
-  position: absolute;
-  bottom: 0;
-  top: 300dvh;
   width: 100%;
   pointer-events: none;
+  height: auto;
+}
+.profiles .title {
+  border: solid 10px black;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 0;
+}
+.profiles .title_text {
+  border: solid 10px black;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 0;
+  margin-top: 100px;
+}
+.profiles .column {
+  position: absolute;
+  padding: 20% 5% 0 5%;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.profiles .column * {
+  width: 15%;
+  margin: 0 2% 0 2%;
+}
+.profiles .column img {
+  width: 150px;
+  border: solid 10px rgb(33, 5, 5);
+  border-radius: 75px;
+}
+.profiles .column h1 {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: center;
+  width: 130%;
+  margin-left: -15%;
+}
+.profiles .column p {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 12px;
 }
 
 .wine {
   display: flex;
-  height: 60dvh;
-  background: linear-gradient(to top, #361313, #3ab5ee);
+  height: 120dvh;
+  background: linear-gradient(to top, #361313, #69C6DD);
   position: relative;
   overflow: hidden;
   color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wine h1 {
+  font-size: 80px;
+  margin-top: 10dvh;
+  margin-bottom: 10dvh;
+}
+.wine button {
+  width: 400px;
+  height: 100px;
+  border: none;
+  border-radius: 50px;
+  background: white;
+  color: black;
+  font-size: 40px;
+  margin-bottom: 10dvh;
+}
+.wine button:hover {
+  filter: drop-shadow(10px 7px 10px #000);
+  transition: 0.3s;
+}
+.wine p {
+  width: 80%;
+  border: solid 5px #a8ccdd;
+  border-radius: 25px;
+  padding: 20px;
+  font-size: 18px;
 }
 
 .it {
@@ -272,8 +351,9 @@ header nav a:hover > a:not(:hover) {
   top: 20%;
   left: 20%;
 }
-.it .html img {
+.it .html img:hover{
   filter: drop-shadow(10px 7px 10px orange);
+  transition: 0.3s;
 }
 .it .html h1 {
   margin-top: 110%;
@@ -285,8 +365,9 @@ header nav a:hover > a:not(:hover) {
   top: 20%;
   right: 20%;
 }
-.it .css img {
+.it .css img:hover {
   filter: drop-shadow(10px 7px 10px blue);
+  transition: 0.3s;
 }
 .it .css h1 {
   color: blue;
@@ -299,8 +380,9 @@ header nav a:hover > a:not(:hover) {
   left: 50%;
   transform: translate(-50%, 0);
 }
-.it .js img {
+.it .js img:hover {
   filter: drop-shadow(10px 7px 10px yellow);
+  transition: 0.3s;
 }
 .it .js h1 {
   color: yellow;
@@ -313,8 +395,9 @@ header nav a:hover > a:not(:hover) {
   left: 50%;
   transform: translate(-50%, 0%);
 }
-.it .projects img {
+.it .projects img:hover {
   filter: drop-shadow(10px 7px 10px white);
+  transition: 0.3s;
 }
 .it .projects h1 {
   color: white;

@@ -57,7 +57,7 @@
                 - [ ] Text size
                 - [ ] Font
     - [ ] IT
-        - [ ] Do the hover glow on icons
+        - [x] Do the hover glow on icons
         - [ ] Animations of codings text
     - [ ] Flags
         - [ ] Animations of flags
