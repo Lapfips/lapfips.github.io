@@ -70,9 +70,5 @@
 	- [ ] Css
 	- [ ] Js
 	- [ ] Projects
-<<<<<<< HEAD
-coucou les amis
-=======
- - [ ] Porto wine
 
->>>>>>> ee026dbb9072a33439acf7b9bc389e3ad205c2fb
+ - [ ] Porto wine
