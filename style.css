@@ -433,7 +433,7 @@ header nav a:hover > a:not(:hover) {
 
 .conclusion .ipi {
   width: 40%;
-  height: 60%;
+  height: 90%;
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
@@ -449,18 +449,18 @@ header nav a:hover > a:not(:hover) {
 }
 .conclusion .thanks {
   width: 40%;
-  height: 60%;
+  height: 100%;
   text-align: center;
   margin-left: 5%;
   margin-right: 5%;
   border: rgb(126, 33, 33) solid 10px;
   border-radius: 50px;
   padding: 2%;
-  font-size: 22px;
+  font-size: 18px;
 }
 .conclusion .thanks h1 {
-  margin-top: 20px;
-  font-size: 45px;
+  margin-top: 0px;
+  font-size: 40px;
 }
 
 .copyright {
@@ -479,7 +479,51 @@ header nav a:hover > a:not(:hover) {
   font-size: 20px;
 }
 @media screen and (max-width: 768px) {
+  .conclusion .ipi {
+    width: 46%;
+    height: 70%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: rgb(126, 33, 33) solid 5px;
+    border-radius: 25px;
+    padding: 2%;
+    font-size: 10px;
+  }
+  .conclusion .ipi img {
+    margin-top: 30%;
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  .conclusion .thanks {
+    width: 46%;
+    height: 70%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: rgb(126, 33, 33) solid 5px;
+    border-radius: 25px;
+    padding: 2%;
+    font-size: 10px;
+  }
+  .conclusion .thanks h1 {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .copyright {
+    display: flex;
+    height: 10%;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    color: white;
+  }
+  
   .copyright p {
-    font-size: 13px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 20px;
   }
 }
