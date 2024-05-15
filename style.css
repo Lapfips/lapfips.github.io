@@ -300,13 +300,13 @@ header nav a:hover > a:not(:hover) {
   background: white;
   color: black;
   font-size: 40px;
-  margin-bottom: 10dvh;
 }
 .wine button:hover {
   filter: drop-shadow(10px 7px 10px #000);
   transition: 0.3s;
 }
 .wine p {
+  margin-top: 10dvh;
   width: 80%;
   border: solid 5px #a8ccdd;
   border-radius: 25px;
