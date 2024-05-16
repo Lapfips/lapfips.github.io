@@ -101,7 +101,7 @@ header nav a:hover > a:not(:hover) {
   pointer-events: none;
 }
 .home .cloud {
-  margin-bottom: 57dvh;
+  padding-bottom: 57dvh;
 }
 .home .title {
   position: absolute;
@@ -118,6 +118,11 @@ header nav a:hover > a:not(:hover) {
   .home img {
     left: -50%;
     width: 280%;
+  }
+  .home .cloud{
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
   }
   .home .title {
     margin-top: 30px;
