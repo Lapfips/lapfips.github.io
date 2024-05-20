@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 150px;
+  height: 100px;
   padding: 0 5%;
   position: absolute;
   width: 100%;
@@ -384,7 +384,7 @@ header nav a:hover > a:not(:hover) {
 .it .js {
   position: absolute;
   height: 50%;
-  top: 35%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -412,7 +412,7 @@ header nav a:hover > a:not(:hover) {
   margin-top: 110%;
 }
 .it .code1 {
-  border: rgb(126, 33, 33) solid 20px;
+  border: rgb(126, 33, 33) solid 10px;
   border-radius: 40px;
   position: absolute;
   height: 30%;
@@ -421,7 +421,7 @@ header nav a:hover > a:not(:hover) {
   transform: translate(0, -60%);
 }
 .it .code2 {
-  border: rgb(126, 33, 33) solid 20px;
+  border: rgb(126, 33, 33) solid 10px;
   border-radius: 40px;
   position: absolute;
   height: 35%;
