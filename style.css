@@ -89,7 +89,7 @@ header nav a:hover > a:not(:hover) {
 .home {
   display: flex;
   height: 100dvh;
-  background: linear-gradient(to top, #d2e2fb 30%, #86a8db);
+  background: linear-gradient(to top,#a1e1dc, #86a8db);
   position: relative;
   overflow: hidden;
 }
@@ -103,7 +103,7 @@ header nav a:hover > a:not(:hover) {
 .home .cloud {
   padding-bottom: 57dvh;
 }
-.home .title {
+.home .title-porto {
   position: absolute;
   font-family: "allura";
   top: 30%;
@@ -237,23 +237,26 @@ header nav a:hover > a:not(:hover) {
   height: auto;
 }
 .profiles .title {
-  border: solid 10px black;
+  font-size: 60px;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
   z-index: 0;
+  padding-top: 40px;
 }
 .profiles .title_text {
-  border: solid 10px black;
+  font-size: 25px;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
   z-index: 0;
-  margin-top: 100px;
+  padding-top: 150px;
+  text-align: center;
 }
 .profiles .column {
+  margin-top: 25%;
   position: absolute;
-  padding: 20% 5% 0 5%;
+  padding: 20% 3% 0 3%;
   z-index: 0;
   display: flex;
   justify-content: center;
@@ -265,7 +268,7 @@ header nav a:hover > a:not(:hover) {
 }
 .profiles .column img {
   width: 150px;
-  border: solid 10px rgb(33, 5, 5);
+  border: solid 7px rgb(180, 146, 47);
   border-radius: 75px;
 }
 .profiles .column h1 {
@@ -357,7 +360,7 @@ header nav a:hover > a:not(:hover) {
   left: 20%;
 }
 .it .html img:hover{
-  filter: drop-shadow(10px 7px 10px orange);
+  filter: drop-shadow(-10px -7px 10px orange);
   transition: 0.3s;
 }
 .it .html h1 {
@@ -371,7 +374,7 @@ header nav a:hover > a:not(:hover) {
   right: 20%;
 }
 .it .css img:hover {
-  filter: drop-shadow(10px 7px 10px blue);
+  filter: drop-shadow(10px -7px 10px blue);
   transition: 0.3s;
 }
 .it .css h1 {
@@ -386,7 +389,7 @@ header nav a:hover > a:not(:hover) {
   transform: translate(-50%, 0);
 }
 .it .js img:hover {
-  filter: drop-shadow(10px 7px 10px yellow);
+  filter: drop-shadow(0px 10px 10px yellow);
   transition: 0.3s;
 }
 .it .js h1 {
@@ -429,7 +432,7 @@ header nav a:hover > a:not(:hover) {
 
 .conclusion {
   display: flex;
-  height: 50%;
+  height: 50dvh;
   background-color: black;
   position: relative;
   overflow: hidden;
@@ -437,14 +440,14 @@ header nav a:hover > a:not(:hover) {
 }
 
 .conclusion .ipi {
-  width: 40%;
-  height: 90%;
+  width: 42.5%;
+  height: 38dvh;
   text-align: center;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 2.5%;
   border: rgb(126, 33, 33) solid 10px;
   border-radius: 50px;
-  padding: 2%;
+  padding-top: 5dvh;
   font-size: 22px;
 }
 .conclusion .ipi img {
@@ -453,10 +456,10 @@ header nav a:hover > a:not(:hover) {
   margin-bottom: 20px;
 }
 .conclusion .thanks {
-  width: 40%;
-  height: 100%;
+  width: 42.5%;
+  height: 38dvh;
   text-align: center;
-  margin-left: 5%;
+  margin-left: 2.5%;
   margin-right: 5%;
   border: rgb(126, 33, 33) solid 10px;
   border-radius: 50px;
@@ -466,6 +469,7 @@ header nav a:hover > a:not(:hover) {
 .conclusion .thanks h1 {
   margin-top: 0px;
   font-size: 40px;
+  margin-bottom: 5%;
 }
 
 .copyright {
