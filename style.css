@@ -106,7 +106,7 @@ header nav a:hover > a:not(:hover) {
 .home .title-porto {
   position: absolute;
   font-family: "allura";
-  top: 30%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -154,7 +154,7 @@ header nav a:hover > a:not(:hover) {
 }
 
 .presentation {
-  height: 130dvh;
+  height: 160dvh;
   padding-top: 50px;
   padding-bottom: 250px;
   background: linear-gradient(to bottom, #99153f, #f5EE76);
@@ -254,7 +254,7 @@ header nav a:hover > a:not(:hover) {
   text-align: center;
 }
 .profiles .column {
-  margin-top: 25%;
+  margin-top: 30%;
   position: absolute;
   padding: 20% 3% 0 3%;
   z-index: 0;
@@ -399,7 +399,7 @@ header nav a:hover > a:not(:hover) {
 .it .projects {
   position: absolute;
   height: 50%;
-  top: 60%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, 0%);
 }
@@ -432,7 +432,7 @@ header nav a:hover > a:not(:hover) {
 
 .conclusion {
   display: flex;
-  height: 50dvh;
+  height: 80dvh;
   background-color: black;
   position: relative;
   overflow: hidden;
@@ -441,14 +441,15 @@ header nav a:hover > a:not(:hover) {
 
 .conclusion .ipi {
   width: 42.5%;
-  height: 38dvh;
+  height: 50dvh;
   text-align: center;
   margin-left: 5%;
   margin-right: 2.5%;
   border: rgb(126, 33, 33) solid 10px;
   border-radius: 50px;
-  padding-top: 5dvh;
+  margin-top: 10dvh;
   font-size: 22px;
+  padding-top: 2%;
 }
 .conclusion .ipi img {
   margin-top: 20px;
@@ -457,13 +458,13 @@ header nav a:hover > a:not(:hover) {
 }
 .conclusion .thanks {
   width: 42.5%;
-  height: 38dvh;
+  height: 50dvh;
   text-align: center;
   margin-left: 2.5%;
   margin-right: 5%;
   border: rgb(126, 33, 33) solid 10px;
   border-radius: 50px;
-  padding: 2%;
+  margin-top: 10dvh;
   font-size: 18px;
 }
 .conclusion .thanks h1 {
