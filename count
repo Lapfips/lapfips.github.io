@@ -2,17 +2,27 @@
 
 countl=0
 countc=0
+counti=0
 
 for file in $(find . -type f)
 do
-	if [[ ${file} != *".git/"* && ! ${file} == *"img/" ]]
+	if [[ ${file} != *".git/"* && ! ${file} == *"img/"* ]]
 	then
+		echo "${file} :"
 		lines_in_file=$(cat "$file" | wc -l)
+		echo "lines : ${lines_in_file}"
 		characteres_in_file=$(cat "$file" | wc -c)
-		countl=$((countl + lines_in_file))
-		countc=$((countc + characteres_in_file))
+		echo "characteres : ${characteres_in_file}"
+		countl=$(($countl + lines_in_file))
+		countc=$(($countc + characteres_in_file))
+	else
+		if [[ ${file} == *"img/"* ]]
+		then
+			counti=$((${counti}+1))
+		fi
 	fi
 done
 
 echo "Il y a $countl lignes dans ce dossier"
 echo "Il y a $countc charactères dans ce dossier"
+echo "Il y a $counti images dans ce dossier"
