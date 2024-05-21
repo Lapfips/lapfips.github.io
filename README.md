@@ -35,7 +35,7 @@
         - [x] Beach
         - [x] IT subject
     - [x] Placements
-        - [ ] Profiles
+        - [x] Profiles
             - [x] Place all heads
             - [x] Border radius
             - [x] All about texts
