@@ -449,7 +449,7 @@ header nav a:hover > a:not(:hover) {
   border-radius: 50px;
   margin-top: 10dvh;
   font-size: 22px;
-  padding: 8% 10px 8% 10px;
+  padding: 8% 20px 8% 20px;
 }
 .conclusion .ipi img {
   margin-top: 20px;
@@ -466,7 +466,7 @@ header nav a:hover > a:not(:hover) {
   border-radius: 50px;
   margin-top: 10dvh;
   font-size: 18px;
-  padding: 5% 10px 5% 10px;
+  padding: 5% 20px 5% 20px;
 }
 .conclusion .thanks h1 {
   margin-top: 0px;
