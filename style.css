@@ -8,6 +8,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+#title, #flag1, #flag2, #city, #cloud, #mount {
+  transition: transform 0.3s ease-out;
+}
+
 header {
   display: flex;
   justify-content: space-between;
