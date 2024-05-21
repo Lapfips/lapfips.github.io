@@ -25,44 +25,44 @@
 ## TODO List
 
  - [ ] HOME
-    - [ ] Colors
-        - [ ] Section transition between Beach and it
+    - [x] Colors
+        - [x] Section transition between Beach and it
     - [ ] Images
         - [x] Clouds
-        - [ ] Mountains
-        - [ ] Road
+        - [x] Mountains
+        - [x] Road
         - [ ] Flags
         - [x] Beach
         - [x] IT subject
-    - [ ] Placements
+    - [x] Placements
         - [ ] Profiles
-            - [ ] Place all heads
-            - [ ] Border radius
-            - [ ] All about texts
-                - [ ] Placements
-                - [ ] Color
-                - [ ] Font
-                - [ ] Border and radius
-        - [ ] Beach
-        - [ ] Transition between Beach and it by placing porto wine
-            - [ ] Add CSS
-            - [ ] Add button to the page
-            - [ ] Add some text about our presentation
+            - [x] Place all heads
+            - [x] Border radius
+            - [x] All about texts
+                - [x] Placements
+                - [x] Color
+                - [x] Font
+                - [x] Border and radius
+        - [x] Beach
+        - [x] Transition between Beach and it by placing porto wine
+            - [x] Add CSS
+            - [x] Add button to the page
+            - [x] Add some text about our presentation
         - [x] IT subject
-        - [ ] Conclusion
-            - [ ] IPI
-            - [ ] Thanks
-                - [ ] Placement
-                - [ ] Size
-                - [ ] Text size
-                - [ ] Font
-    - [ ] IT
+        - [x] Conclusion
+            - [x] IPI
+            - [x] Thanks
+                - [x] Placement
+                - [x] Size
+                - [x] Text size
+                - [x] Font
+    - [x] IT
         - [x] Do the hover glow on icons
-        - [ ] Animations of codings text
+        - [x] Animations of codings text
     - [ ] Flags
         - [ ] Animations of flags
-    - [ ] Copyright
-        - [ ] Size
+    - [x] Copyright
+        - [x] Size
 
  - [X] LOGIN
     - [X] Place the nav bar
@@ -106,8 +106,3 @@
 	- [ ] Projects
         - [ ] Add content
         - [ ] Add CSS
-
- - [ ] Porto wine
-    - [ ] Add the idea
-    - [ ] Add CSS
-
