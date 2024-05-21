@@ -453,9 +453,9 @@ header nav a:hover > a:not(:hover) {
   border-radius: 50px;
   margin-top: 10dvh;
   font-size: 22px;
-  padding: 14% 20px 14% 20px;
 }
 .conclusion .ipi img {
+  padding-top: calc(100% - 200px);
   width: 30%;
   margin-bottom: 20px;
 }
