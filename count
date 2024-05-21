@@ -1,0 +1,18 @@
+#!/bin/bash
+
+countl=0
+countc=0
+
+for file in $(find . -type f)
+do
+	if [[ ${file} != *".git/"* && ! ${file} == *"img/" ]]
+	then
+		lines_in_file=$(cat "$file" | wc -l)
+		characteres_in_file=$(cat "$file" | wc -c)
+		countl=$((countl + lines_in_file))
+		countc=$((countc + characteres_in_file))
+	fi
+done
+
+echo "Il y a $countl lignes dans ce dossier"
+echo "Il y a $countc charactères dans ce dossier"
