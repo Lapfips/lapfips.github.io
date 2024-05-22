@@ -290,7 +290,7 @@ header nav a:hover > a:not(:hover) {
 
 .wine {
   display: flex;
-  height: 120dvh;
+  height: 160dvh;
   background: linear-gradient(to top, #361313, #69C6DD);
   position: relative;
   overflow: hidden;
