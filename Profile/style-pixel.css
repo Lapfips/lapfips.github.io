@@ -9,7 +9,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #cc5353, #611616);
+  background: linear-gradient(135deg, #3e0d0d, #6f3737);
   height: 650dvh;
 }
 
@@ -49,13 +49,13 @@ header nav a {
   color: white;
 }
 header .title {
-  background: #08042c;
+  background: #9d3838;
 }
 header .title:hover {
-  background: #5247b9;
+  background: #6c0b0b;
 }
 header nav a:hover {
-  background: #5247b9;
+  background: #9d3838;
 }
 header nav a:hover > a:not(:hover) {
   background: none;
@@ -98,7 +98,7 @@ header nav a:hover > a:not(:hover) {
 
 .profileHeader {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
