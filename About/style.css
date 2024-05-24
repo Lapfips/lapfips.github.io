@@ -3,52 +3,50 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-  }
+}
   
-  header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    height: 100px;
     position: relative;
     width: 90%;
     z-index: 100;
-    margin-top: 250px;
-  }
-  
-  header h1 {
+    margin-left: 40px;
+}
+
+header h1 {
     font-size: 60px;
-    color: white;
-  }
-  header .title {
-    text-decoration: none;
-    font-weight: 600;
-    padding: 8px 16px;
-    border-radius: 50px;
-    transition: 0.4s;
-  }
-  header nav {
-    display: flex;
-    gap: 30px;
-  }
-  header nav a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 8px 16px;
-    border-radius: 99px;
-    transition: 0.4s;
-    color: white;
-  }
-  header .title {
-    background: #f85858;
-  }
-  header .title:hover {
-    background: #500c0c;
-  }
-  header nav a:hover {
-    background: #f85858;
-  }
-  header nav a:hover > a:not(:hover) {
-    background: none;
-  }
+    text-align: center;
+    color: black;
+}
+header nav {
+  display: flex;
+  gap: 30px;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 99px;
+  transition: 0.4s;
+  color: rgb(0, 0, 0);
+}
+header nav a.login {
+  background: #08042c;
+}
+header nav a.login:hover {
+  background: #5247b9;
+}
+header nav a:hover {
+  background: #5247b9;
+}
+header nav a:hover > a:not(:hover) {
+  background: none;
+}
+
+.summary {
+    height: calc(100dvh - 100px);
+}

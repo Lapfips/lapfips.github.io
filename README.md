@@ -18,6 +18,7 @@
 
  - Adobe Illustrator
  - Adobe DreamWeaver
+ - Figma
  - Visual Studio Code
  - GitHub
  - GitHub Pages

@@ -158,7 +158,7 @@ header nav a:hover > a:not(:hover) {
 }
 
 .presentation {
-  height: 160dvh;
+  height: 140dvh;
   padding-top: 50px;
   padding-bottom: 250px;
   background: linear-gradient(to bottom, #99153f, #f5EE76);
