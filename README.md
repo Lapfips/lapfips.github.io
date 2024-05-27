@@ -92,18 +92,18 @@
 
  - [ ] ACTIVITIES
 
- - [ ] ABOUT
+ - [x] ABOUT
 
  - [ ] IT SUBJECTS
-	- [ ] Html
-        - [ ] Add content
-        - [ ] Add CSS
-	- [ ] Css
-        - [ ] Add content
-        - [ ] Add CSS
-	- [ ] Js
-        - [ ] Add content
-        - [ ] Add CSS
+	- [x] Html
+        - [x] Add content
+        - [x] Add CSS
+	- [x] Css
+        - [x] Add content
+        - [x] Add CSS
+	- [x] Js
+        - [x] Add content
+        - [x] Add CSS
 	- [ ] Projects
         - [ ] Add content
         - [ ] Add CSS
