@@ -9,7 +9,7 @@
 }
 
 body {
-  background: linear-gradient(225deg, #97032d, #ffb5b5);
+  background: linear-gradient(225deg, rgb(150, 4, 4), #c04444);
   height: 540dvh;
 }
 
@@ -52,7 +52,7 @@ header .title {
   background: #97092f;
 }
 header .title:hover {
-  background: #6c0b0b;
+  background: #b74d4d;
 }
 header nav a:hover {
   background: #97092f;
