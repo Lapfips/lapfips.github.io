@@ -6,8 +6,7 @@
 }
 
 body {
-    background: #d5f0ff;
-    height: 100dvh;
+    height: 93dvh;
 }
 
 header {
@@ -45,21 +44,54 @@ header {
     transition: 0.4s;
     color: rgb(0, 0, 0);
   }
-  header .title {
-    background: #597676;
-  }
-  header .title:hover {
-    background: #7e96a3;
-  }
-  header nav a:hover {
-    background: #597676;
-  }
+
   header nav a:hover > a:not(:hover) {
     background: none;
   }
 
+  .introduction {
+    position: absolute;
+    top: 20dvh;
+    padding: 0 10% 0 10%;
+  }
+
+  .introduction h1 {
+    text-align: center;
+  }
+
+  .exemples {
+    position: absolute;
+    top: 60dvh;
+    padding: 0 10% 0 10%;
+    display: grid;
+    grid-template: 25dvh / 2fr 3fr 2fr;
+    grid-template-areas: "img1 text img2";
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .text {
+    grid-area: text;
+    text-align: center;
+  }
+  img {
+    height: 250px;
+    border-radius: 25px;
+  }
+  .img1 {
+    grid-area: img1;
+    
+  }
+  .img2 {
+    grid-area: img2;
+  }
+
   footer {
-    bottom: 5dvh;
     text-align: center;
     display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 93dvh;
+    left: 50%;
+    transform: translate(-50%, 0);
   }

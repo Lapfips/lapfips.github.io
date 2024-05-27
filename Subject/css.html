@@ -6,15 +6,32 @@
     <title>IT Subject CSS | Metallica Group Blog</title>
     <link rel="icon" type="image/png" href="img/metallica.png">
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: #d5f0ff;
+        }
+        header .title {
+            background: #597676;
+        }
+        header .title:hover {
+            background: #7e96a3;
+        }
+        header nav a:hover {
+            background: #597676;
+        }
+        img {
+            border: solid 5px #384cff;
+        }
+    </style>
 </head>
 <body>
 
     <header>
         <a href="../../index.html" class="title"><h1>Home</h1></a>
         <nav>
-            <a href="About/about.html">Dairy</a>
-            <a href="Activities/activities.html">Activities</a>
-            <a href="#profiles" class="scroll-btn">Profiles</a>
+            <a href="html.html">HTML</a>
+            <a href="js.html">JavaScript</a>
+            <a href="Projects/project.html">Projects</a>
             <a href="Login/login.html" class="login">Login</a>
         </nav>
     </header>
@@ -25,9 +42,9 @@
     </section>
 
     <section class="exemples">
-        <img src="css1.png">
-        <p>During our project of madding blog in code we lear that CSS is like the skin of a web page, without CSS a web page is looking like on the picture on the right and if we add the CSS to style the page we obtain a result like the one one the left bottom.</p>  
-        <img src="css2.png">
+        <img class="img1" src="css1.png">
+        <p class="text">During our project of madding blog in code we learned that CSS is like the skin of a web page, without CSS a web page is looking like on the picture on the left and if we add the CSS to style the page we obtain a result like the one on the right.</p>  
+        <img class="img2" src="css2.png">
     </section>
 
     <footer>

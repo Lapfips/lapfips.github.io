@@ -9,8 +9,8 @@
 }
 
 body {
-  background: linear-gradient(225deg, #a20632, #ed3c36);
-  height: 665dvh;
+  background: linear-gradient(45deg, rgb(150, 4, 4), rgb(232, 82, 82));
+  height: 635dvh;
 }
 
 header {
@@ -123,7 +123,7 @@ header nav a:hover > a:not(:hover) {
   border: 3px solid #611616;
   padding: 2%;
   border-radius: 20px;
-  background: linear-gradient(225deg, #a20632, #ed3c36);
+  background: linear-gradient(45deg, rgb(150, 4, 4), rgb(232, 82, 82));
 }
 .profileHeader h3 {
   margin-top: 50px;
@@ -165,13 +165,13 @@ a{
 .contact {
   position: absolute;
   width: 60%;
-  top: 150%;
+  top: 125%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 10px solid #611616;
   padding: 5%;
   border-radius: 250px;
-  background: #f35d5d;
+  background: rgb(255, 175, 175);;
 }
 
 .contact h1 {
@@ -190,13 +190,13 @@ a{
 .school {
   position: absolute;
   width: 80%;
-  top: 225%;
+  top: 200%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 10px solid #611616;
   padding: 5%;
   border-radius: 25px;
-  background: #f35d5d;
+  background: rgb(255, 175, 175);;
 }
 
 .school h2 {
@@ -219,13 +219,13 @@ a{
 .job {
   position: absolute;
   width: 80%;
-  top: 485%;
+  top: 455%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 10px solid #611616;
   padding: 5%;
   border-radius: 25px;
-  background: #f35d5d;
+  background: rgb(255, 175, 175);;
 }
 
 .job h2 {
@@ -249,13 +249,13 @@ a{
   margin-top: 10%;
   position: absolute;
   width: 39%;
-  top: 630%;
+  top: 600%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 5px solid #611616;
   padding: 25px;
   border-radius: 25px;
-  background: #f35d5d;
+  background: rgb(255, 175, 175);;
   text-align: center;
   font-size: 100%;
 }
