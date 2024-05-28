@@ -165,7 +165,7 @@ a{
 .contact {
   position: absolute;
   width: 60%;
-  top: 125%;
+  top: 110%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 10px solid #611616;
@@ -190,7 +190,7 @@ a{
 .school {
   position: absolute;
   width: 80%;
-  top: 200%;
+  top: 175%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 10px solid #611616;
@@ -219,7 +219,7 @@ a{
 .job {
   position: absolute;
   width: 80%;
-  top: 350%;
+  top: 315%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 10px solid #611616;
@@ -249,7 +249,7 @@ a{
   margin-top: 10%;
   position: absolute;
   width: 39%;
-  top: 500%;
+  top: 460%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 5px solid #611616;
