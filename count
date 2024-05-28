@@ -3,6 +3,7 @@
 countl=0
 countc=0
 counti=0
+countf=0
 
 for file in $(find . -type f)
 do
@@ -12,6 +13,7 @@ do
 		characteres_in_file=$(cat "$file" | wc -c)
 		countl=$(($countl + lines_in_file))
 		countc=$(($countc + characteres_in_file))
+		countf=$(($countf + 1))
 	else
 		if [[ ${file} == *"img/"* ]]
 		then
@@ -23,3 +25,4 @@ done
 echo "Il y a $countl lignes dans ce dossier"
 echo "Il y a $countc charactères dans ce dossier"
 echo "Il y a $counti images dans ce dossier"
+echo "Il y a $countf fichiers dans ce dossier"
