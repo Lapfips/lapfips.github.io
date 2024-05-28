@@ -3,3 +3,17 @@
     padding: 0;
 }
 
+.images {
+    display: flex;
+    justify-content: center;
+    margin-top: 225px;
+    margin-bottom: 0%;
+    gap: 20px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border: solid 5px #3c3c3c;
+    border-radius: 25px;
+}
