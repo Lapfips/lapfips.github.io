@@ -1,5 +1,4 @@
-body {
-    font-family: "arial", sans-serif;
+h1 {
     text-align: center;
 }
 
@@ -12,8 +11,7 @@ body {
     align-items: center;
 }
 
-.precedent,
-.suivant {
+.precedent, .suivant {
     cursor: pointer;
     transition: opacity 0.3s ease;
     opacity: 0;
@@ -33,7 +31,6 @@ body {
     right: 0;
 }
 
-.slider:hover .precedent,
-.slider:hover .suivant {
+.slider:hover .precedent, .slider:hover .suivant {
     opacity: 1;
 }
