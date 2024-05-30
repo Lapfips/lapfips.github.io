@@ -41,13 +41,13 @@ header nav a {
   color: white;
 }
 header nav a.login {
-  background: #08042c;
+  background: #43556e;
 }
 header nav a.login:hover {
-  background: #5247b9;
+  background: #6681a7;
 }
 header nav a:hover {
-  background: #5247b9;
+  background: #43556e;
 }
 header nav a:hover > a:not(:hover) {
   background: none;

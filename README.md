@@ -68,31 +68,104 @@
  - [X] LOGIN
     - [X] Place the nav bar
 
- - [ ] PROFILES
-    - [ ] Ethan
-        - [ ] Colors
-        - [ ] Animations
-        - [ ] Placement
-    - [ ] Florian
-        - [ ] Colors
-        - [ ] Animations
-        - [ ] Placement
-    - [ ] Alix
-        - [ ] Colors
-        - [ ] Animations
-        - [ ] Placement
-    - [ ] Adrien
-        - [ ] Colors
-        - [ ] Animations
-        - [ ] Placement
-    - [ ] Pixel
-        - [ ] Colors
-        - [ ] Animations
-        - [ ] Placement
+ - [x] PROFILES
+    - [x] Ethan
+        - [x] Colors
+        - [x] Animations
+        - [x] Placement
+    - [x] Florian
+        - [x] Colors
+        - [x] Animations
+        - [x] Placement
+    - [x] Alix
+        - [x] Colors
+        - [x] Animations
+        - [x] Placement
+    - [x] Adrien
+        - [x] Colors
+        - [x] Animations
+        - [x] Placement
+    - [x] Pixel
+        - [x] Colors
+        - [x] Animations
+        - [x] Placement
 
  - [ ] ACTIVITIES
+    - [ ] Day 1
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 2
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 3
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 4
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 5
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 6
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 7
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 8
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 9
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 10
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 11
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 12
+        - [ ] Images
+        - [ ] Text
 
- - [x] ABOUT
+
+ - [ ] ABOUT
+    - [ ] Day 1
+        - [ ] Images
+        - [x] Text
+    - [ ] Day 2
+        - [ ] Images
+        - [x] Text
+    - [ ] Day 3
+        - [ ] Images
+        - [x] Text
+    - [ ] Day 4
+        - [ ] Images
+        - [x] Text
+    - [ ] Day 5
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 6
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 7
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 8
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 9
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 10
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 11
+        - [ ] Images
+        - [ ] Text
+    - [ ] Day 12
+        - [ ] Images
+        - [ ] Text
 
  - [ ] IT SUBJECTS
 	- [x] Html
