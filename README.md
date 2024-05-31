@@ -91,30 +91,30 @@
         - [x] Placement
 
  - [ ] ACTIVITIES
-    - [ ] Day 1
-        - [ ] Images
-        - [ ] Text
-    - [ ] Day 2
-        - [ ] Images
-        - [ ] Text
-    - [ ] Day 3
-        - [ ] Images
-        - [ ] Text
-    - [ ] Day 4
-        - [ ] Images
-        - [ ] Text
-    - [ ] Day 5
-        - [ ] Images
-        - [ ] Text
-    - [ ] Day 6
-        - [ ] Images
-        - [ ] Text
-    - [ ] Day 7
-        - [ ] Images
-        - [ ] Text
-    - [ ] Day 8
-        - [ ] Images
-        - [ ] Text
+    - [x] Day 1
+        - [x] Images
+        - [x] Text
+    - [x] Day 2
+        - [x] Images
+        - [x] Text
+    - [x] Day 3
+        - [x] Images
+        - [x] Text
+    - [x] Day 4
+        - [x] Images
+        - [x] Text
+    - [x] Day 5
+        - [x] Images
+        - [x] Text
+    - [x] Day 6
+        - [x] Images
+        - [x] Text
+    - [x] Day 7
+        - [x] Images
+        - [x] Text
+    - [x] Day 8
+        - [x] Images
+        - [x] Text
     - [ ] Day 9
         - [ ] Images
         - [ ] Text
@@ -144,16 +144,16 @@
         - [x] Text
     - [ ] Day 5
         - [ ] Images
-        - [ ] Text
+        - [x] Text
     - [ ] Day 6
         - [ ] Images
-        - [ ] Text
+        - [x] Text
     - [ ] Day 7
         - [ ] Images
-        - [ ] Text
+        - [x] Text
     - [ ] Day 8
         - [ ] Images
-        - [ ] Text
+        - [x] Text
     - [ ] Day 9
         - [ ] Images
         - [ ] Text
