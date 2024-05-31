@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Vérifier si le dossier est passé en paramètre
+if [ -z "$1" ]; then
+    echo "Usage: $0 <dossier>"
+    exit 1
+fi
+
+# Se déplacer vers le dossier spécifié
+cd "$1"
+
+# Vérifier si le dossier existe et est accessible
+if [ $? -ne 0 ]; then
+    echo "Erreur: Impossible d'accéder au dossier $1"
+    exit 1
+fi
+
+# Parcourir tous les fichiers d'image dans le dossier et ses sous-répertoires
+find . -type f | while read image_file; do
+    # Obtenir l'extension du fichier
+    ext="${image_file##*.}"
+
+    # Vérifier si le fichier a une extension d'image prise en charge (optionnel)
+    if [[ "$ext" =~ ^(jpg|jpeg|gif|bmp|tiff|webp)$ ]]; then
+        # Définir le nom du fichier PNG
+        png_file="${image_file%.*}.png"
+        echo "Conversion de $image_file en $png_file ..."
+        # Convertir le fichier d'image en PNG
+        convert "$image_file" "$png_file"
+        # Optionnel: Supprimer le fichier original après conversion
+        # rm "$image_file"
+    fi
+done
