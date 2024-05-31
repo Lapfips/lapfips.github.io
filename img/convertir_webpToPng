@@ -4,7 +4,7 @@
 cd "$(dirname "$0")"
 
 # Parcourir tous les fichiers WebP dans le répertoire et ses sous-répertoires
-find . -type f -name "*.webp" | while read webp_file; do
+find . -type f -name "*.url" | while read webp_file; do
     # Déplacer chaque fichier WebP en PNG avec l'extension modifiée
     png_file="${webp_file%.webp}.png"
     echo "Conversion de $webp_file en $png_file ..."
