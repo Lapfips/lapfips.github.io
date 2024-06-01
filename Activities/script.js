@@ -64,7 +64,7 @@ function changeSlide2(element, direction) {
 
 const slides3 = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png"];
 
-const text3 = ["The Mercado do Bolhão", "Mr blue sky", "First survey with a German", "Second survey with two Toulousains", "Third survey with two Belgians from São Paulo", "Fourth survey with a Portuan", "Group photo in the Mercado"];
+const text3 = ["The Mercado do Bolhão", "Mr blue sky", "First survey with a German", "Second survey with two Toulousains", "Third survey with two Brazilian from Belgium", "Fourth survey with a Portuan", "Group photo in the Mercado"];
 const paragraph3 = document.getElementById('day3');
 
 function changeText3(direction) {

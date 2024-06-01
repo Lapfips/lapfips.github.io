@@ -168,7 +168,7 @@
         - [ ] Images
         - [ ] Text
 
- - [ ] IT SUBJECTS
+ - [x] IT SUBJECTS
 	- [x] Html
         - [x] Add content
         - [x] Add CSS
@@ -178,6 +178,6 @@
 	- [x] Js
         - [x] Add content
         - [x] Add CSS
-	- [ ] Projects
-        - [ ] Add content
-        - [ ] Add CSS
+	- [x] Projects
+        - [x] Add content
+        - [x] Add CSS

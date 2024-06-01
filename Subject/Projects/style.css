@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #e3e3e3;
+  }
+  
+  body {
+    background: rgb(39, 39, 39);
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 0 5%;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  header h1 {
+    font-size: 60px;
+    color: white;
+  }
+  header .title {
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 50px;
+    transition: 0.4s;
+  }
+  header nav {
+    display: flex;
+    gap: 30px;
+  }
+  header nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 99px;
+    transition: 0.4s;
+    color: white;
+  }
+  header .title {
+    background: #606060;
+  }
+  header .title:hover {
+    background: rgb(176, 176, 176);
+  }
+  header nav a:hover {
+    background: #606060;
+  }
+  header nav a:hover > a:not(:hover) {
+    background: none;
+  }
+
+  .introduction {
+    width: 100%;
+    height: 11dvh;
+    margin: 0 0 5dvh 0;
+    padding: 0 20%;
+    text-align: center;
+    display: block;
+    justify-content: center;
+  }
+
+  .introduction h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+
+  .exemples {
+    display: flex;
+    margin: 10dvh 10%;
+    column-gap: 10dvh;
+  }
+
+  .exemples img {
+    width: 80%;
+    margin: 5% 10%;
+    border: solid 4px #ffffff;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+  .exemples p{
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .copyright {
+    position: absolute;
+    bottom: 5dvh;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
