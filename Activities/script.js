@@ -254,9 +254,9 @@ function changeSlide8(element, direction) {
     img.src = `../img/${day}/${slides8[index]}`;
 }
 
-const slides9 = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png"];
+const slides9 = ["1.png", "2.png", "3.png", "4.png"];
 
-const text9 = ["PIXEL ready for the fly", "It's time to take time", "Take a lunch"];
+const text9 = ["PIXEL on his throne looking at the ocean", "PIXEL's beautiful throne", "Adrien the thief", "Adrien and Quentin.G are looking for the One Piece"];
 const paragraph9 = document.getElementById('day9')
 
 function changeText9(direction) {
@@ -286,9 +286,9 @@ function changeSlide9(element, direction) {
     img.src = `../img/${day}/${slides9[index]}`;
 }
 
-const slides10 = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png"];
+const slides10 = ["1.png", "2.png", "3.png", "4.png", "5.png"];
 
-const text10 = ["PIXEL ready for the fly", "It's time to take time", "Take a lunch"];
+const text10 = ["PIXEL the tourist", "PIXEL found the love", "It's time to present", "PIXEL is shooting with the girls", "And the winner is ......"];
 const paragraph10 = document.getElementById('day10')
 
 function changeText10(direction) {
@@ -318,9 +318,9 @@ function changeSlide10(element, direction) {
     img.src = `../img/${day}/${slides10[index]}`;
 }
 
-const slides11 = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png"];
+const slides11 = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"];
 
-const text11 = ["PIXEL ready for the fly", "It's time to take time", "Take a lunch"];
+const text11 = ["The last day in Porto", "Goodbye Douro", "The final stretch for the blog", "Last shopping in Portugal", "Beautiful church", "A beautiful little street"];
 const paragraph11 = document.getElementById('day11')
 
 function changeText11(direction) {
@@ -350,9 +350,9 @@ function changeSlide11(element, direction) {
     img.src = `../img/${day}/${slides11[index]}`;
 }
 
-const slides12 = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png"];
+const slides12 = ["1.png", "2.png", "3.png", "4.png", "5.png"];
 
-const text12 = ["PIXEL ready for the fly", "It's time to take time", "Take a lunch"];
+const text12 = ["PIXEL and the Philosopher's Stone", "PIXEL in Paris", "Waiting at the airport", "Ready to fly", "Goodbye Porto <3"];
 const paragraph12 = document.getElementById('day12')
 
 function changeText12(direction) {

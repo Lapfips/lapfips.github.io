@@ -10,7 +10,7 @@
 
 body {
   background: linear-gradient(45deg, rgb(150, 4, 4), rgb(232, 82, 82));
-  height: 635dvh;
+  height: 390dvh;
 }
 
 header {
@@ -49,13 +49,13 @@ header nav a {
   color: white;
 }
 header .title {
-  background: #97092f;
+  background: #692525;
 }
 header .title:hover {
-  background: #6c0b0b;
+  background: #a93c3c;
 }
 header nav a:hover {
-  background: #97092f;
+  background: #692525;
 }
 header nav a:hover > a:not(:hover) {
   background: none;
@@ -120,10 +120,8 @@ header nav a:hover > a:not(:hover) {
   width: 39%;
   height: 5%;
   text-align: center;
-  border: 3px solid #611616;
-  padding: 2%;
-  border-radius: 20px;
-  background: linear-gradient(45deg, rgb(150, 4, 4), rgb(232, 82, 82));
+  color: white;
+  font-size: 40px;
 }
 .profileHeader h3 {
   margin-top: 50px;
@@ -164,12 +162,12 @@ a{
 
 .contact {
   position: absolute;
-  width: 60%;
+  width: 30%;
   top: 125%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 10px solid #611616;
-  padding: 5%;
+  padding: 2%;
   border-radius: 250px;
   background: rgb(255, 175, 175);;
 }
@@ -189,12 +187,12 @@ a{
 
 .school {
   position: absolute;
-  width: 80%;
-  top: 200%;
+  width: 70%;
+  top: 180%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 10px solid #611616;
-  padding: 5%;
+  padding: 2%;
   border-radius: 25px;
   background: rgb(255, 175, 175);;
 }
@@ -210,7 +208,7 @@ a{
   margin-bottom: 5px;
 }
 .school article .title {
-  padding: 5%;
+  padding: 2%;
 }
 .school article .title .left h3 {
   margin-bottom: 5px;
@@ -218,12 +216,12 @@ a{
 
 .job {
   position: absolute;
-  width: 80%;
-  top: 455%;
+  width: 70%;
+  top: 290%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 10px solid #611616;
-  padding: 5%;
+  padding: 2%;
   border-radius: 25px;
   background: rgb(255, 175, 175);;
 }
@@ -239,7 +237,7 @@ a{
   margin-bottom: 5px;
 }
 .job article .title {
-  padding: 5%;
+  padding: 2%;
 }
 .job article .title .left h3 {
   margin-bottom: 5px;
@@ -249,7 +247,7 @@ a{
   margin-top: 10%;
   position: absolute;
   width: 39%;
-  top: 600%;
+  top: 350%;
   left: 50%;
   transform: translate(-50%, 0);
   border: 5px solid #611616;

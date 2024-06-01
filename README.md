@@ -20,6 +20,7 @@
  - Adobe DreamWeaver
  - Figma
  - Visual Studio Code
+ - Git Bash
  - GitHub
  - GitHub Pages
 
@@ -90,7 +91,7 @@
         - [x] Animations
         - [x] Placement
 
- - [ ] ACTIVITIES
+ - [x] ACTIVITIES
     - [x] Day 1
         - [x] Images
         - [x] Text
@@ -115,18 +116,18 @@
     - [x] Day 8
         - [x] Images
         - [x] Text
-    - [ ] Day 9
-        - [ ] Images
-        - [ ] Text
-    - [ ] Day 10
-        - [ ] Images
-        - [ ] Text
-    - [ ] Day 11
-        - [ ] Images
-        - [ ] Text
-    - [ ] Day 12
-        - [ ] Images
-        - [ ] Text
+    - [x] Day 9
+        - [x] Images
+        - [x] Text
+    - [x] Day 10
+        - [x] Images
+        - [x] Text
+    - [x] Day 11
+        - [x] Images
+        - [x] Text
+    - [x] Day 12
+        - [x] Images
+        - [x] Text
 
 
  - [ ] ABOUT
@@ -159,10 +160,10 @@
         - [ ] Text
     - [ ] Day 10
         - [ ] Images
-        - [ ] Text
+        - [x] Text
     - [ ] Day 11
         - [ ] Images
-        - [ ] Text
+        - [x] Text
     - [ ] Day 12
         - [ ] Images
         - [ ] Text
