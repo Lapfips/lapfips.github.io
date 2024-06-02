@@ -1,99 +1,98 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    height: 93dvh;
+  height: 93dvh;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    position: relative;
-    width: 90%;
-    z-index: 100;
-    margin: 50px 0 0 50px;
-  }
-  
-  header h1 {
-    font-size: 60px;
-    color: rgb(0, 0, 0);
-  }
-  header .title {
-    text-decoration: none;
-    font-weight: 600;
-    padding: 8px 16px;
-    border-radius: 50px;
-    transition: 0.4s;
-  }
-  header nav {
-    display: flex;
-    gap: 30px;
-  }
-  header nav a {
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 8px 16px;
-    border-radius: 99px;
-    transition: 0.4s;
-    color: rgb(0, 0, 0);
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  position: relative;
+  width: 90%;
+  z-index: 100;
+  margin: 50px 0 0 50px;
+}
 
-  header nav a:hover > a:not(:hover) {
-    background: none;
-  }
+header h1 {
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+}
+header .title {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 50px;
+  transition: 0.4s;
+}
+header nav {
+  display: flex;
+  gap: 30px;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 99px;
+  transition: 0.4s;
+  color: rgb(0, 0, 0);
+}
 
-  .introduction {
-    position: absolute;
-    top: 20dvh;
-    padding: 0 10% 0 10%;
-  }
+header nav a:hover > a:not(:hover) {
+  background: none;
+}
 
-  .introduction h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.introduction {
+  position: absolute;
+  top: 20dvh;
+  padding: 0 10% 0 10%;
+}
 
-  .exemples {
-    margin-top: 5dvh;
-    position: absolute;
-    top: 60dvh;
-    padding: 0 10% 0 10%;
-    display: grid;
-    grid-template: 25dvh / 2fr 3fr 2fr;
-    grid-template-areas: "img1 text img2";
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  .text {
-    grid-area: text;
-    text-align: center;
-  }
-  img {
-    height: 200px;
-    border-radius: 25px;
-  }
-  .img1 {
-    grid-area: img1;
-    
-  }
-  .img2 {
-    grid-area: img2;
-  }
+.introduction h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-  footer {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 93dvh;
-    left: 50%;
-    transform: translate(-50%, 0);
-  }
+.exemples {
+  margin-top: 5dvh;
+  position: absolute;
+  top: 60dvh;
+  padding: 0 10% 0 10%;
+  display: grid;
+  grid-template: 25dvh / 2fr 3fr 2fr;
+  grid-template-areas: "img1 text img2";
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.text {
+  grid-area: text;
+  text-align: center;
+}
+img {
+  height: 200px;
+  border-radius: 25px;
+}
+.img1 {
+  grid-area: img1;
+}
+.img2 {
+  grid-area: img2;
+}
+
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 93dvh;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

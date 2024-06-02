@@ -1,277 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Activities | Metallica Group Blog</title>
-    <link rel="icon" type="image/png" href="img/metallica.png">
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+    <link rel="icon" type="image/png" href="img/metallica.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <a href="../index.html" class="title"><h1>Home</h1></a>
-        <nav>
-            <a href="../About/about.html">Daily</a>
-            <a href="../index.html#profiles">Profiles</a>
-            <a href="../Login/login.html">Login</a>
-        </nav>
+      <a href="../index.html" class="title"><h1>Home</h1></a>
+      <nav>
+        <a href="../About/about.html">Daily</a>
+        <a href="../index.html#profiles">Profiles</a>
+        <a href="../Login/login.html">Login</a>
+      </nav>
     </header>
-    
+
     <main>
+      <div class="big-title">
+        <h1>Activities in Porto</h1>
+      </div>
 
-        <div class="big-title">
-            <h1>Activities of our trip in Porto</h1>
+      <h1>Day 1</h1>
+      <div class="slider" data-day="day1">
+        <img src="../img/day1/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide1(this, -1), changeText1(-1)"
+        >
+          <
         </div>
+        <div class="suivant" onclick="changeSlide1(this, 1), changeText1(1)">
+          >
+        </div>
+      </div>
+      <p id="day1">Picture of PIXEL ready for the fly</p>
 
-        <h1>Day 1</h1>
-        <div class="slider" data-day="day1">
-            <img src="../img/day1/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide1(this, -1), changeText1(-1)"><</div>
-            <div class="suivant" onclick="changeSlide1(this, 1), changeText1(1)">></div>
+      <h1>Day 2</h1>
+      <div class="slider" data-day="day2">
+        <img src="../img/day2/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide2(this, -1), changeText2(-1)"
+        >
+          <
         </div>
-        <p id="day1">Picture of PIXEL ready for the fly</p>
+        <div class="suivant" onclick="changeSlide2(this, 1), changeText2(1)">
+          >
+        </div>
+      </div>
+      <p id="day2">It's time to lunch with our GOAT Etienne</p>
 
-        <h1>Day 2</h1>
-        <div class="slider" data-day="day2">
-            <img src="../img/day2/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide2(this, -1), changeText2(-1)"><</div>
-            <div class="suivant" onclick="changeSlide2(this, 1), changeText2(1)">></div>
+      <h1>Day 3</h1>
+      <div class="slider" data-day="day3">
+        <img src="../img/day3/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide3(this, -1), changeText3(-1)"
+        >
+          <
         </div>
-        <p id="day2">It's time to lunch with our GOAT Etienne</p>
+        <div class="suivant" onclick="changeSlide3(this, 1), changeText3(1)">
+          >
+        </div>
+      </div>
+      <p id="day3">The Mercado do Bolhão</p>
 
-        <h1>Day 3</h1>
-        <div class="slider" data-day="day3">
-            <img src="../img/day3/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide3(this, -1), changeText3(-1)"><</div>
-            <div class="suivant" onclick="changeSlide3(this, 1), changeText3(1)">></div>
+      <div class="surveys">
+        <h1>Our surveys :</h1>
+        <div class="article">
+          <h2>The German one</h2>
+          <h3 class="question">What are you doing in Porto ?</h3>
+          <h4 class="answer">
+            I am in Porto as a stop in my trip all around Portugal with my
+            girlfriend.
+          </h4>
+          <h3 class="question">What is your nationality ?</h3>
+          <h4 class="answer">We live in germany.</h4>
+          <h3 class="question">
+            Where are you sleeping for your stop in Porto ?
+          </h3>
+          <h4 class="answer">
+            We are in a hostel in the center of Porto and it's like that for all
+            the cities we stop by.
+          </h4>
+          <h3 class="question">
+            What do you think about France and their habitants in general?
+          </h3>
+          <h4 class="answer">
+            I think France is a nice country with an interesting culture, that
+            why I'm learning french on my own.
+          </h4>
         </div>
-        <p id="day3">The Mercado do Bolhão</p>
+        <div class="article">
+          <h2>The Toulousains</h2>
+          <h3 class="question">What are you doing in Porto ?</h3>
+          <h4 class="answer">
+            We came to take a break before going to the Chapel of Angels. We
+            came to this mercado because we heard good things about it.
+          </h4>
+          <h3 class="question">What is your nationality ?</h3>
+          <h4 class="answer">We come from Toulouse in France.</h4>
+          <h3 class="question">
+            Where are you sleeping for your stop in Porto ?
+          </h3>
+          <h4 class="answer">
+            We have an accommodation on Gaia's side of Porto.
+          </h4>
+          <h3 class="question">For how long are you in Porto ?</h3>
+          <h4 class="answer">
+            We'll stay a week to visit the city during our holidays.
+          </h4>
+          <h3 class="question">
+            For now, what was your favorite activity during your trip ?
+          </h3>
+          <h4 class="answer">
+            The best activities we did for now were a bus tour in the city and a
+            cruise on the Douro river.
+          </h4>
+        </div>
+        <div class="article">
+          <h2>The Brazilian couple from Belgium</h2>
+          <h3 class="question">What is your nationality ?</h3>
+          <h4 class="answer">
+            We are Brazilians, we were born in São Paulo but we live in Belgium.
+          </h4>
+          <h3 class="question">Where did you stop during your trip ?</h3>
+          <h4 class="answer">
+            We were in Lisbon and went to Porto for a few days to visit the city
+            before coming back to Lisbon.
+          </h4>
+          <h3 class="question">
+            What do you think about France and their habitants in general ?
+          </h3>
+          <h4 class="answer">
+            I think that France is a beautiful country with a lot of interesting
+            cultural topics like food, architecture and so on.
+          </h4>
+          <h3 class="question">
+            Should we go to Brazil ? And if we go, where should we go first ?
+          </h3>
+          <h4 class="answer">
+            If you go to Brazil and especially in São Paulo, you can go to the
+            Municipal Market, it's a beautiful place to visit.
+          </h4>
+        </div>
+        <div class="article">
+          <h2>The Portuan</h2>
+          <h3 class="question">What are you doing in Porto ?</h3>
+          <h4 class="answer">
+            I am working here and I think that this Mercado is one of the most
+            beautiful place of Porto.
+          </h4>
+          <h3 class="question">
+            What is your nationality, where do you live and for how long have
+            you been here ?
+          </h3>
+          <h4 class="answer">
+            I am Portuguese, I'm living 15 minutes away from Porto and I live
+            here since I was young.
+          </h4>
+          <h3 class="question">What is your favorite place in Porto ?</h3>
+          <h4 class="answer">
+            I love this city, everything is beautiful especially the Praça do
+            Bolão and the Dragon Stadium.
+          </h4>
+          <h3 class="question">
+            What do you think about France and their habitants in general ?
+          </h3>
+          <h4 class="answer">
+            I think that France is a wonderful country with an important history
+            and an interesting culture with the Eiffel Tower, the
+            multiculturalism, sports and so on.
+          </h4>
+        </div>
+      </div>
 
-        <div class="surveys">
-            <h1> Our surveys :</h1>
-            <div class="article">
-                <h2>The German one</h2>
-                <h3 class="question">
-                    What are you doing in Porto ?
-                </h3>
-                <h4 class="answer">
-                    I am in Porto as a stop in my trip all around Portugal with my girlfriend.
-                </h4>
-                <h3 class="question">
-                    What is your nationality ?
-                </h3>
-                <h4 class="answer">
-                    We live in germany.
-                </h4>
-                <h3 class="question">
-                    Where are you sleeping for your stop in Porto ?
-                </h3>
-                <h4 class="answer">
-                    We are in a hostel in the center of Porto and it's like that for all the cities we stop by.
-                </h4>
-                <h3 class="question">
-                    What do you think about France and their habitants in general?
-                </h3>
-                <h4 class="answer">
-                    I think France is a nice country with an interesting culture, that why I'm learning french on my own.
-                </h4>
-            </div>
-            <div class="article">
-                <h2>The Toulousains</h2>
-                <h3 class="question">
-                    What are you doing in Porto ?
-                </h3>
-                <h4 class="answer">
-                    We came to take a break before going to the Chapel of Angels. We came to this mercado because we heard good things about it.
-                </h4>
-                <h3 class="question">
-                    What is your nationality ?
-                </h3>
-                <h4 class="answer">
-                    We come from Toulouse in France.
-                </h4>
-                <h3 class="question">
-                    Where are you sleeping for your stop in Porto ?
-                </h3>
-                <h4 class="answer">
-                    We have an accommodation on Gaia's side of Porto.
-                </h4>
-                <h3 class="question">
-                    For how long are you in Porto ?
-                </h3>
-                <h4 class="answer">
-                    We'll stay a week to visit the city during our holidays.
-                </h4>
-                <h3 class="question">
-                    For now, what was your favorite activity during your trip ?
-                </h3>
-                <h4 class="answer">
-                    The best activities we did for now were a bus tour in the city and a cruise on the Douro river.
-                </h4>
-            </div>
-            <div class="article">
-                <h2>The Brazilian couple from Belgium</h2>
-                <h3 class="question">
-                    What is your nationality ?
-                </h3>
-                <h4 class="answer">
-                    We are Brazilians, we were born in São Paulo but we live in Belgium.
-                </h4>
-                <h3 class="question">
-                    Where did you stop during your trip ?
-                </h3>
-                <h4 class="answer">
-                    We were in Lisbon and went to Porto for a few days to visit the city before coming back to Lisbon.
-                </h4>
-                <h3 class="question">
-                    What do you think about France and their habitants in general ?
-                </h3>
-                <h4 class="answer">
-                    I think that France is a beautiful country with a lot of interesting cultural topics like food, architecture and so on.
-                </h4>
-                <h3 class="question">
-                    Should we go to Brazil ? And if we go, where should we go first ?
-                </h3>
-                <h4 class="answer">
-                    If you go to Brazil and especially in São Paulo, you can go to the Municipal Market, it's a beautiful place to visit. 
-                </h4>
-            </div>
-            <div class="article">
-                <h2>The Portuan</h2>
-                <h3 class="question">
-                    What are you doing in Porto ?
-                </h3>
-                <h4 class="answer">
-                    I am working here and I think that this Mercado is one of the most beautiful place of Porto.
-                </h4>
-                <h3 class="question">
-                    What is your nationality, where do you live and for how long have you been here ?
-                </h3>
-                <h4 class="answer">
-                    I am Portuguese, I'm living 15 minutes away from Porto and I live here since I was young.
-                </h4>
-                <h3 class="question">
-                    What is your favorite place in Porto ?
-                </h3>
-                <h4 class="answer">
-                    I love this city, everything is beautiful especially the Praça do Bolão and the Dragon Stadium.
-                </h4>
-                <h3 class="question">
-                    What do you think about France and their habitants in general ?
-                </h3>
-                <h4 class="answer">
-                    I think that France is a wonderful country with an important history and an interesting culture with  the Eiffel Tower, the multiculturalism, sports and so on.  
-                </h4>
-            </div>
+      <h1>Day 4</h1>
+      <div class="slider" data-day="day4">
+        <img src="../img/day4/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide4(this, -1), changeText4(-1)"
+        >
+          <
         </div>
+        <div class="suivant" onclick="changeSlide4(this, 1), changeText4(1)">
+          >
+        </div>
+      </div>
+      <p id="day4">Let's go to the restaurant for Etienne</p>
 
-        <h1>Day 4</h1>
-        <div class="slider" data-day="day4">
-            <img src="../img/day4/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide4(this, -1), changeText4(-1)"><</div>
-            <div class="suivant" onclick="changeSlide4(this, 1), changeText4(1)">></div>
+      <h1>Day 5</h1>
+      <div class="slider" data-day="day5">
+        <img src="../img/day5/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide5(this, -1), changeText5(-1)"
+        >
+          <
         </div>
-        <p id="day4">Let's go to the restaurant for Etienne</p>
+        <div class="suivant" onclick="changeSlide5(this, 1), changeText5(1)">
+          >
+        </div>
+      </div>
+      <p id="day5">Group photo before the cruise</p>
 
-        <h1>Day 5</h1>
-        <div class="slider" data-day="day5">
-            <img src="../img/day5/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide5(this, -1), changeText5(-1)"><</div>
-            <div class="suivant" onclick="changeSlide5(this, 1), changeText5(1)">></div>
+      <div class="cruise">
+        <h2>Our cruise on the Douro</h2>
+        <div class="bridge">
+          <h3>Dom-Luís bridge</h3>
+          <p>
+            The Dom-Luís bridge is one of bridges located on the Douro in
+            portugal, it connects Porto to Vila Nova de Gaia. It was built
+            between 1881 and 1886 by the engineer Théophile Seyrig, disciple of
+            Gustave Eiffel, it kind of looks like the Maria-Pia Bridge, located
+            further upstream, but has an additional lower deck for road traffic.
+            It is listed as a UNESCO World Heritage Site.
+          </p>
         </div>
-        <p id="day5">Group photo before the cruise</p>
+        <div class="bridge">
+          <h3>Infante Dom Henrique bridge</h3>
+          <p>
+            The Ponte Infante Dom Henrique, also known as Ponte do Infante, is a
+            road bridge that connects Vila Nova de Gaia to Porto, over the Douro
+            River, in Portugal. It was named in honor of Infante D. Henrique,
+            born in Porto. It is the most recent bridge that connects Porto and
+            Gaia. It was built to replace the upper deck of the Luís I Bridge,
+            which is now used by the "Yellow Line" (Hospital de São João/Santo
+            Ovídio) of the Porto metro.
+          </p>
+        </div>
+        <div class="bridge">
+          <h3>Maria Pia bridge</h3>
+          <p>
+            Maria Pia Bridge is a large railway viaduct which crosses the Douro.
+            This metal arch bridge was the first railway bridge to join the two
+            banks of the Douro, it was designed by Gustave Eiffel and his
+            associate Théophile Seyrig within the construction company Eiffel et
+            Cie. Opened in November 1877, it was decommissioned in 1991 and
+            replaced by a modern structure, the Ponte de São João. It is named
+            in honor of Maria Pia of Savoy (1847-1911) who became queen consort
+            of Portugal.
+          </p>
+        </div>
+        <div class="bridge">
+          <h3>São João bridge</h3>
+          <p>
+            São João Bridge is a railway infrastructure that transports the
+            Northern Line over the Douro River, close to the city of Porto, in
+            Portugal. It was built to replace the already century-old D. Maria
+            Pia Bridge, it was first opened to public on June 24, 1991.
+          </p>
+        </div>
+        <div class="bridge">
+          <h3>Freixo bridge</h3>
+          <p>
+            There are actually two bridges built side by side and spaced just 10
+            cm apart. Each deck has 4 traffic lanes and is made up of 8 spans,
+            the longest one is 150 meters long.
+          </p>
+        </div>
+        <div class="bridge">
+          <h3>Arrábida bridge</h3>
+          <p>
+            The Arrábida Bridge is an arched bridge over the Douro River that
+            connects Porto to Vila Nova de Gaia, in Portugal. Since the 1930s,
+            it has been necessary to create alternative connections to the old
+            bridges in order to respond to the growing flow of road traffic.
+            During its construction in 1963, the bridge had the largest
+            reinforced concrete arch of any bridge in the world.
+          </p>
+        </div>
+      </div>
 
-        <div class="cruise">
-            <h2>Our cruise on the Douro</h2>
-            <div class="bridge">
-                <h3>Dom-Luís bridge</h3>
-                <p>The Dom-Luís bridge is one of bridges located on the Douro in portugal, it connects Porto to Vila Nova de Gaia. It was built between 1881 and 1886 by the engineer Théophile Seyrig, disciple of Gustave Eiffel, it kind of looks like the Maria-Pia Bridge, located further upstream, but has an additional lower deck for road traffic. It is listed as a UNESCO World Heritage Site.</p>
-            </div>
-            <div class="bridge">
-                <h3>Infante Dom Henrique bridge</h3>
-                <p>The Ponte Infante Dom Henrique, also known as Ponte do Infante, is a road bridge that connects Vila Nova de Gaia to Porto, over the Douro River, in Portugal. It was named in honor of Infante D. Henrique, born in Porto. It is the most recent bridge that connects Porto and Gaia. It was built to replace the upper deck of the Luís I Bridge, which is now used by the "Yellow Line" (Hospital de São João/Santo Ovídio) of the Porto metro.</p>
-            </div>
-            <div class="bridge">
-                <h3>Maria Pia bridge</h3>
-                <p>Maria Pia Bridge is a large railway viaduct which crosses the Douro. This metal arch bridge was the first railway bridge to join the two banks of the Douro, it was designed by Gustave Eiffel and his associate Théophile Seyrig within the construction company Eiffel et Cie. Opened in November 1877, it was decommissioned in 1991 and replaced by a modern structure, the Ponte de São João. It is named in honor of Maria Pia of Savoy (1847-1911) who became queen consort of Portugal.</p>
-            </div>
-            <div class="bridge">
-                <h3>São João bridge</h3>
-                <p>São João Bridge is a railway infrastructure that transports the Northern Line over the Douro River, close to the city of Porto, in Portugal. It was built to replace the already century-old D. Maria Pia Bridge, it was first opened to public on June 24, 1991.</p>
-            </div>
-            <div class="bridge">
-                <h3>Freixo bridge</h3>
-                <p>There are actually two bridges built side by side and spaced just 10 cm apart. Each deck has 4 traffic lanes and is made up of 8 spans, the longest one is 150 meters long.</p>
-            </div>
-            <div class="bridge">
-                <h3>Arrábida bridge</h3>
-                <p>The Arrábida Bridge is an arched bridge over the Douro River that connects Porto to Vila Nova de Gaia, in Portugal. Since the 1930s, it has been necessary to create alternative connections to the old bridges in order to respond to the growing flow of road traffic. During its construction in 1963, the bridge had the largest reinforced concrete arch of any bridge in the world.</p>
-            </div>
+      <h1>Day 6</h1>
+      <div class="slider" data-day="day6">
+        <img src="../img/day6/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide6(this, -1), changeText6(-1)"
+        >
+          <
         </div>
+        <div class="suivant" onclick="changeSlide6(this, 1), changeText6(1)">
+          >
+        </div>
+      </div>
+      <p id="day6">PIXEL visits Metyis company</p>
 
-        <h1>Day 6</h1>
-        <div class="slider" data-day="day6">
-            <img src="../img/day6/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide6(this, -1), changeText6(-1)"><</div>
-            <div class="suivant" onclick="changeSlide6(this, 1), changeText6(1)">></div>
+      <h1>Day 7</h1>
+      <div class="slider" data-day="day7">
+        <img src="../img/day7/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide7(this, -1), changeText7(-1)"
+        >
+          <
         </div>
-        <p id="day6">PIXEL visits Metyis company</p>
+        <div class="suivant" onclick="changeSlide7(this, 1), changeText7(1)">
+          >
+        </div>
+      </div>
+      <p id="day7">PIXEL and his week-end breakfast</p>
 
-        <h1>Day 7</h1>
-        <div class="slider" data-day="day7">
-            <img src="../img/day7/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide7(this, -1), changeText7(-1)"><</div>
-            <div class="suivant" onclick="changeSlide7(this, 1), changeText7(1)">></div>
+      <h1>Day 8</h1>
+      <div class="slider" data-day="day8">
+        <img src="../img/day8/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide8(this, -1), changeText8(-1)"
+        >
+          <
         </div>
-        <p id="day7">PIXEL and his week-end breakfast</p>
+        <div class="suivant" onclick="changeSlide8(this, 1), changeText8(1)">
+          >
+        </div>
+      </div>
+      <p id="day8">Sunset on the Douro</p>
 
-        <h1>Day 8</h1>
-        <div class="slider" data-day="day8">
-            <img src="../img/day8/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide8(this, -1), changeText8(-1)"><</div>
-            <div class="suivant" onclick="changeSlide8(this, 1), changeText8(1)">></div>
+      <h1>Day 9</h1>
+      <div class="slider" data-day="day9">
+        <img src="../img/day9/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide9(this, -1), changeText9(-1)"
+        >
+          <
         </div>
-        <p id="day8">Sunset on the Douro</p>
+        <div class="suivant" onclick="changeSlide9(this, 1), changeText9(1)">
+          >
+        </div>
+      </div>
+      <p id="day9">PIXEL on his throne looking at the ocean</p>
 
-        <h1>Day 9</h1>
-        <div class="slider" data-day="day9">
-            <img src="../img/day9/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide9(this, -1), changeText9(-1)"><</div>
-            <div class="suivant" onclick="changeSlide9(this, 1), changeText9(1)">></div>
+      <h1>Day 10</h1>
+      <div class="slider" data-day="day10">
+        <img src="../img/day10/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide10(this, -1), changeText10(-1)"
+        >
+          <
         </div>
-        <p id="day9">PIXEL on his throne looking at the ocean</p>
+        <div class="suivant" onclick="changeSlide10(this, 1), changeText10(1)">
+          >
+        </div>
+      </div>
+      <p id="day10">PIXEL the tourist</p>
 
-        <h1>Day 10</h1>
-        <div class="slider" data-day="day10">
-            <img src="../img/day10/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide10(this, -1), changeText10(-1)"><</div>
-            <div class="suivant" onclick="changeSlide10(this, 1), changeText10(1)">></div>
+      <h1>Day 11</h1>
+      <div class="slider" data-day="day11">
+        <img src="../img/day11/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide11(this, -1), changeText11(-1)"
+        >
+          <
         </div>
-        <p id="day10">PIXEL the tourist</p>
+        <div class="suivant" onclick="changeSlide11(this, 1), changeText11(1)">
+          >
+        </div>
+      </div>
+      <p id="day11">The last day in Porto</p>
 
-        <h1>Day 11</h1>
-        <div class="slider" data-day="day11">
-            <img src="../img/day11/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide11(this, -1), changeText11(-1)"><</div>
-            <div class="suivant" onclick="changeSlide11(this, 1), changeText11(1)">></div>
+      <h1>Day 12</h1>
+      <div class="slider" data-day="day12">
+        <img src="../img/day12/1.png" class="slide" data-index="0" />
+        <div
+          class="precedent"
+          onclick="changeSlide12(this, -1), changeText12(-1)"
+        >
+          <
         </div>
-        <p id="day11">The last day in Porto</p>
-
-        <h1>Day 12</h1>
-        <div class="slider" data-day="day12">
-            <img src="../img/day12/1.png" class="slide" data-index="0">
-            <div class="precedent" onclick="changeSlide12(this, -1), changeText12(-1)"><</div>
-            <div class="suivant" onclick="changeSlide12(this, 1), changeText12(1)">></div>
+        <div class="suivant" onclick="changeSlide12(this, 1), changeText12(1)">
+          >
         </div>
-        <p id="day12">PIXEL and the Philosopher's Stone</p>
-        
+      </div>
+      <p id="day12">PIXEL and the Philosopher's Stone</p>
     </main>
 
     <footer>
-        <p>Copyright &copy; Metallica Group Blog</p>
+      <p>Copyright &copy; Metallica Group Blog</p>
     </footer>
-    
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
