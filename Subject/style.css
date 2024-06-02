@@ -79,12 +79,16 @@ header nav a:hover > a:not(:hover) {
 img {
   height: 200px;
   border-radius: 25px;
+  display: flex;
+  justify-content: center;
 }
 .img1 {
   grid-area: img1;
+  margin-left: 80px;
 }
 .img2 {
   grid-area: img2;
+  margin-left: 80px;
 }
 
 footer {
