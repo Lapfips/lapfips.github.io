@@ -324,6 +324,7 @@ header nav a:hover > a:not(:hover) {
   border-radius: 25px;
   padding: 20px;
   font-size: 18px;
+  padding: 40px;
 }
 
 .it {
@@ -453,10 +454,15 @@ header nav a:hover > a:not(:hover) {
   border-radius: 50px;
   margin-top: 10dvh;
   font-size: 22px;
-  padding-top: calc(50dvh - 300px);
+  padding-top: 10dvh;
 }
 .conclusion .ipi img {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  height: 120px;
+}
+.conclusion .ipi p {
+  margin-top: 5px;
+  font-size: 30px;
 }
 .conclusion .thanks {
   width: 42.5%;
@@ -468,12 +474,16 @@ header nav a:hover > a:not(:hover) {
   border-radius: 50px;
   margin-top: 10dvh;
   font-size: 18px;
-  padding: 8dvh 20px 5% 20px;
+  padding: 12dvh 20px 5% 20px;
 }
 .conclusion .thanks h1 {
   margin-top: 0px;
-  font-size: 40px;
+  font-size: 50px;
   margin-bottom: 5%;
+}
+.conclusion .thanks p {
+  font-size: 20px;
+  padding: 0 20px;
 }
 
 .copyright {
@@ -500,7 +510,6 @@ header nav a:hover > a:not(:hover) {
     margin-right: 5%;
     border: rgb(126, 33, 33) solid 5px;
     border-radius: 25px;
-    padding: 2%;
     font-size: 10px;
   }
   .conclusion .ipi img {
@@ -516,11 +525,11 @@ header nav a:hover > a:not(:hover) {
     margin-right: 5%;
     border: rgb(126, 33, 33) solid 5px;
     border-radius: 25px;
-    padding: 2%;
+    padding: 6%;
     font-size: 10px;
   }
   .conclusion .thanks h1 {
-    margin-top: 10px;
+    margin-top: 60px;
     font-size: 20px;
   }
   
